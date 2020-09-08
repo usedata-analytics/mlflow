@@ -1,0 +1,9 @@
+name: mlflow-env
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - pip
+  - pip:
+    - mlflow>=1.0
